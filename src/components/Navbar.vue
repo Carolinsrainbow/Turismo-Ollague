@@ -1,5 +1,5 @@
 <template>
-   <div>
+<div>
   <b-navbar toggleable="lg" type="dark" variant="info">
     <b-navbar-brand href="#">NavBar</b-navbar-brand>
 
@@ -41,6 +41,6 @@
 
 <script>
 export default {
-    name: Navbar
-}
+  name: "Navbar",
+};
 </script>
