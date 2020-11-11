@@ -11,7 +11,7 @@
 import Navbar from '@/components/Navbar.vue'
 
 export default {
-     name: "Artesania"
+  components: Navbar
 }
 </script>
 
