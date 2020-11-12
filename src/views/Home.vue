@@ -5,24 +5,30 @@
 <Guias></Guias>
 <Restaurant></Restaurant>
 <Artesania></Artesania>
+<Footer></Footer>
+<RRSS></RRSS>
   </div>
 </template>
 
 <script>
-import Hoteles from '@/components/Hoteles.vue'
 import Navbar from '@/components/Navbar.vue'
+import Hoteles from '@/components/Hoteles.vue'
 import Guias from '@/components/Guias.vue'
 import Restaurant from '@/components/Restaurant.vue'
 import Artesania from '@/components/Artesania.vue'
+import Footer from '@/components/Footer.vue'
+import RRSS from '@/components/RRSS.vue'
 
 export default {
   name: 'Home',
   components: {
+     Navbar,
    Hoteles,
-    Navbar,
     Guias,
     Restaurant,
-    Artesania
+    Artesania,
+    Footer,
+    RRSS
   }
 }
 </script>
