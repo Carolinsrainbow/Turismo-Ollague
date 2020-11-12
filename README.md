@@ -1,4 +1,4 @@
-# ollague
+# Municipalidad de Ollagüe
 
 ## Project setup
 ```
