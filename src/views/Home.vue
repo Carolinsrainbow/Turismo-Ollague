@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Navbar></Navbar>
+<Navbar></Navbar>
 <Hoteles></Hoteles>
 <Guias></Guias>
 <Restaurant></Restaurant>
@@ -32,3 +32,10 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.home{
+  color: white;
+  background-color: #3B210F;
+}
+</style>
