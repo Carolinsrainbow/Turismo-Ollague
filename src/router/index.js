@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Artesania from '../views/Home.vue'
+import Artesania from  '../views/Artesania.vue'
 
 Vue.use(VueRouter)
 
