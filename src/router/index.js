@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Artesania from  '../views/Artesania.vue'
 
 Vue.use(VueRouter)
 
@@ -11,11 +10,7 @@ const routes = [
     name: 'Home',
     component: Home
   },
-  {
-    path: '/artesania',
-    name: 'Artesania',
-    component: Artesania
-  },
+
 ]
 
 const router = new VueRouter({

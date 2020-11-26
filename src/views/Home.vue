@@ -12,21 +12,17 @@
 
 <script>
 import Navbar from '@/components/Navbar.vue'
-import Hoteles from '@/components/Hoteles.vue'
-import Guias from '@/components/Guias.vue'
-import Restaurant from '@/components/Restaurant.vue'
-import Artesania from '@/components/Artesania.vue'
-import Footer from '@/components/Footer.vue'
+import Hoteles from '@/views/Hoteles.vue'
+import Guias from '@/views/Guias.vue'
+import Restaurant from '@/views/Restaurant.vue'
+import Artesania from '@/views/Artesania.vue'
+import Footer from '@/views/Footer.vue'
 import RRSS from '@/components/RRSS.vue'
 
 export default {
   name: 'Home',
   components: {
      Navbar,
-   Hoteles,
-    Guias,
-    Restaurant,
-    Artesania,
     Footer,
     RRSS
   }
