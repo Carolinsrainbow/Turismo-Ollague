@@ -11,7 +11,7 @@
         <b-nav-item href="#">Galería</b-nav-item>
   <b-nav-item href="#">Circuitos</b-nav-item>
     <b-nav-item href="#">Contacto</b-nav-item>
-      <b-nav-item href="#">Inicio</b-nav-item>
+      <b-nav-item href="/">Inicio</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
