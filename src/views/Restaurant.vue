@@ -1,6 +1,7 @@
 <template>
   <div>
       <Navbar></Navbar>
+      <div class="container">
       <div class="row">
           <div class="col-3">
         <b-list-group>
@@ -12,12 +13,17 @@
           </b-list-group>
           </div>
                  <div class="col-9">
-                     <h3>aioz</h3>
+                  
                  </div>
+          </div>
           </div>
           <Footer></Footer>
         <RRSS></RRSS>
         </div>
          </template>
 
-
+<script>
+export default {
+  name:"Restaurant"
+}
+</script>

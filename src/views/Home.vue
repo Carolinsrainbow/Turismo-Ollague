@@ -2,7 +2,6 @@
   <div class="home">
 <Navbar></Navbar>
 <Servicios></Servicios>
-
 <RRSS></RRSS>
 <Footer></Footer>
   </div>
