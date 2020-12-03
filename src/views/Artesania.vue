@@ -50,6 +50,7 @@
 <script>
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
+
 export default {
   name: "Artesania",
   components: { Navbar, Footer },
