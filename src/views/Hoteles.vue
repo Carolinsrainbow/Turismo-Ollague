@@ -14,7 +14,7 @@
           </div>
                  <div class="col-9">
                    <div class="container pa-5 my-5 text-center">
-     <img src="@/assets/img/Entorno/hoteles.png" alt="Portada Hoteles">
+     <img src="@/assets/img/Portadas/hoteles.png" alt="Portada Hoteles">
     <h1>HOTELES</h1>
 
     <div class="row">

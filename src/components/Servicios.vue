@@ -45,7 +45,7 @@
 </div>
 <div class="col-2 caja">
     <h3>GUIAS</h3>
-    
+    <img src="@/assets/img/Iconos/perfil.png" alt="Iconos de Alojamientos " class="icon">   
 </div>
 <div class="col-2 caja">
     <h3>RESTAURANT</h3>
@@ -57,11 +57,11 @@
 </div>
 <div class="col-2 caja">
   <h3>MAPA</h3>
-      <img src="@/assets/img/Iconos/mapa.png" alt="Iconos de Mapa " class="icon"> 
+  
 </div>
 <div class="col-2 caja">
   <h3>RUTAS</h3>
-  
+      <img src="@/assets/img/Iconos/mapa.png" alt="Iconos de Mapa " class="icon"> 
 </div>
 </div>
 </div>
