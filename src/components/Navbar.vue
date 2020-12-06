@@ -1,17 +1,19 @@
 <template>
 <div>
   <b-navbar toggleable="lg" type="dark" variant="dark">
-    <b-navbar-brand href="#"></b-navbar-brand>
+      <img src="@/assets/img/Iconos/volcan.png" alt="Icono de Volcan">
+    <b-navbar-brand href="#">
+    </b-navbar-brand>
 
 
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
+              <b-nav-item href="/">Inicio</b-nav-item>
             <b-nav-item href="#">Circuito Turistico</b-nav-item>
         <b-nav-item href="#">Galería</b-nav-item>
   <b-nav-item href="#">Circuitos</b-nav-item>
     <b-nav-item href="#">Contacto</b-nav-item>
-      <b-nav-item href="/">Inicio</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
@@ -32,3 +34,9 @@ export default {
   name: "Navbar",
 };
 </script>
+
+<style scoped>
+img{
+  width: 5%
+}
+</style>
