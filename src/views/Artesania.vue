@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="artesania">
     <Navbar></Navbar>
     <div class="row">
       <div class="col-3">
@@ -28,23 +28,35 @@
         </b-list-group>
       </div>
       <div class="col-9">
-        <img src="/assets/img/2/artesania.png" alt="Artesanía">
+       <img src="@/assets/img/Portadas/artesania.png" alt="Portada de Artesanía">
         <h1>ARTESANIA</h1>
-        <div class="container pa-5 my-5 text-center">
+        <div class="container">
           <h2>Oficios</h2>
           <div class="row">
-            <div class="col-2">ALFARERIA</div>
-            <div class="col-2">TEXTILERIA</div>
-            <div class="col-2">TALLADO</div>
-            <div class="col-2">ORFEBRERÍA</div>
-            <div class="col-2">BORDADO</div>
-            <div class="col-2">BUSCAR</div>
+            <div class="col-2 caja">ALFARERIA
+  <img src="@/assets/img/Oficios/alfareria.png" alt="Alfareria">
+            </div>
+            <div class="col-2 caja">TEXTILERIA
+                <img src="@/assets/img/Oficios/textileria.png" alt="Textileria">
+            </div>
+            <div class="col-2 caja">TALLADO
+                <img src="@/assets/img/Oficios/tallado.png" alt="Tallado">
+            </div>
+            <div class="col-2 caja">ORFEBRERÍA
+                <img src="@/assets/img/Oficios/orfebreria.png" alt="Orfebreria">
+            </div>
+            <div class="col-2 caja">BORDADO
+                <img src="@/assets/img/Oficios/bordado.png" alt="Bordado">
+            </div>
+            <div class="col-2 caja">BUSCAR
+                <img src="@/assets/img/Oficios/buscar.png" alt="Buscar">
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <Footer></Footer>
+
   </div>
 </template>
 
@@ -57,3 +69,18 @@ export default {
   components: { Navbar, Footer },
 };
 </script>
+
+<style scoped>
+.artesania{
+  color: white;
+  background-color:  #3B210F;
+}
+.img{
+  width: 10%;
+}
+.caja{
+  height: 75 px;
+  width: 75 px;
+}
+
+</style>
