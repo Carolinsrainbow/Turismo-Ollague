@@ -28,6 +28,7 @@
         </b-list-group>
       </div>
       <div class="col-9">
+        <img src="/assets/img/2/artesania.png" alt="Artesanía">
         <h1>ARTESANIA</h1>
         <div class="container pa-5 my-5 text-center">
           <h2>Oficios</h2>
