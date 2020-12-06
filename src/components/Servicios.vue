@@ -39,23 +39,29 @@
    <div class="container pa-5 my-5 text-center">
   <h2>Ven a Visitarnos</h2>
     <div class="row">
-<div class="col-2">
-    HOTELES
+<div class="col-2 caja">
+  <h3> HOTELES</h3>
+     <img src="@/assets/img/Iconos/alojamientos.png" alt="Iconos de Alojamientos " class="icon">
 </div>
-<div class="col-2">
-    GUIAS
+<div class="col-2 caja">
+    <h3>GUIAS</h3>
+    
 </div>
-<div class="col-2">
-    RESTAURANTES
+<div class="col-2 caja">
+    <h3>RESTAURANT</h3>
+     <img src="@/assets/img/Iconos/restaurantes.png" alt="Iconos de Restaurantes " class="icon">
 </div>
-<div class="col-2">
-    ARTESANIA
+<div class="col-2 caja">
+  <h3>ARTESANIA</h3>
+         <img src="@/assets/img/Iconos/artesania.png" alt="Iconos de Artesania " class="icon">  
 </div>
-<div class="col-2">
-    MAPA
+<div class="col-2 caja">
+  <h3>MAPA</h3>
+      <img src="@/assets/img/Iconos/mapa.png" alt="Iconos de Mapa " class="icon"> 
 </div>
-<div class="col-2">
-    RUTAS
+<div class="col-2 caja">
+  <h3>RUTAS</h3>
+  
 </div>
 </div>
 </div>
@@ -72,4 +78,12 @@ export default {
 </script>
 
 <style>
+.caja{
+  width: 50 px;
+height: 200px;
+border: solid black 1px;
+}
+.icon{
+  width: 90%
+}
 </style>
