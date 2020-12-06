@@ -12,7 +12,8 @@
           </b-list-group>
           </div>
                  <div class="col-9">
-            
+                   <h1>Rutas</h1>
+            <Rutas></Rutas>
                  </div>
           </div>
           <Footer></Footer>
@@ -21,6 +22,7 @@
          </template>
 
 <script>
+  import Rutas from '@/components/Rutas.vue'
 import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
 import RRSS from '@/components/RRSS.vue'
@@ -29,6 +31,7 @@ export default {
     name:"Circuitos",
     components: {
            Navbar,
+           Rutas,
     Footer,
     RRSS
     }
