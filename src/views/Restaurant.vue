@@ -19,14 +19,13 @@
           </div>
           </div>
           <Footer></Footer>
-        <RRSS></RRSS>
+  
         </div>
          </template>
 
 <script>
 import Navbar from '@/components/Navbar.vue'
 import Servicios from '@/components/Servicios.vue'
-import RRSS from '@/components/RRSS.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
@@ -34,7 +33,7 @@ export default {
   components: {
      Navbar,
      Servicios,
-    RRSS,
+
         Footer
   }
 }

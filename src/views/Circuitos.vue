@@ -17,7 +17,7 @@
                  </div>
           </div>
           <Footer></Footer>
-<RRSS></RRSS>
+
         </div>
          </template>
 
@@ -25,7 +25,7 @@
   import Rutas from '@/components/Rutas.vue'
 import Navbar from '@/components/Navbar.vue'
 import Footer from '@/components/Footer.vue'
-import RRSS from '@/components/RRSS.vue'
+
 
 export default {
     name:"Circuitos",
@@ -33,7 +33,7 @@ export default {
            Navbar,
            Rutas,
     Footer,
-    RRSS
+
     }
 }
 </script>

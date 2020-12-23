@@ -10,11 +10,9 @@
     <h4> Email: circuito@correo.cl </h4>
            </div>
 
-           <div class="col-4">
+           <div class="col-4 ">
 <h5>Galería</h5>
-<h5>Circuitos</h5>
-<h5>Contactos</h5>
-<h5> Inicio </h5>
+<h5>Contacto</h5>
   <b-form-input size="sm" class="mr-sm-2" placeholder="Búsqueda"></b-form-input>
            </div>
        </div>
